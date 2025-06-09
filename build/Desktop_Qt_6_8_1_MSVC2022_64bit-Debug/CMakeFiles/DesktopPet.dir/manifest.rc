@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug/CMakeFiles/DesktopPet.dir/embed.manifest"

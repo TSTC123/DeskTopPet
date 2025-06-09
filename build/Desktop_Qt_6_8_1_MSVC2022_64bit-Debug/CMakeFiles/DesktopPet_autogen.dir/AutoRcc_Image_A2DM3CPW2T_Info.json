@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug/DesktopPet_autogen",
+	"CMAKE_BINARY_DIR" : "D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/newsoft/Qt/my_test_file/DesktopPet",
+	"CMAKE_SOURCE_DIR" : "D:/newsoft/Qt/my_test_file/DesktopPet",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug/DesktopPet_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/newsoft/Qt/my_test_file/DesktopPet/Image/sounds/timer.wav",
+		"D:/newsoft/Qt/my_test_file/DesktopPet/Image/sounds/alarm.wav",
+		"D:/newsoft/Qt/my_test_file/DesktopPet/Image/cat/catWidget.png",
+		"D:/newsoft/Qt/my_test_file/DesktopPet/Image/cat/caiDan.png",
+		"D:/newsoft/Qt/my_test_file/DesktopPet/Image/cat/caiDanJM.png"
+	],
+	"LOCK_FILE" : "D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug/CMakeFiles/DesktopPet_autogen.dir/AutoRcc_Image_A2DM3CPW2T_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "Image" ],
+	"OUTPUT_CHECKSUM" : "A2DM3CPW2T",
+	"OUTPUT_NAME" : "qrc_Image.cpp",
+	"RCC_EXECUTABLE" : "D:/newsoft/Qt6/6.8.1/msvc2022_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug/CMakeFiles/DesktopPet_autogen.dir/AutoRcc_Image_A2DM3CPW2T_Used.txt",
+	"SOURCE" : "D:/newsoft/Qt/my_test_file/DesktopPet/Image/Image.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

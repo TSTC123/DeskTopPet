@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cat/catWidget.png</file>
+        <file>cat/caiDan.png</file>
+        <file>cat/caiDanJM.png</file>
+        <file>sounds/alarm.wav</file>
+        <file>sounds/timer.wav</file>
+    </qresource>
+</RCC>
