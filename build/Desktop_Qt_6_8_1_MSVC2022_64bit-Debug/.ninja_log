@@ -1,0 +1,19 @@
+# ninja log v5
+607	2787	7699335329013740	CMakeFiles/DesktopPet.dir/caidan.cpp.obj	e07875b19f9043c3
+28	184	7711443072877376	DesktopPet_autogen/timestamp	12aa582fc79387c3
+28	184	7711443072877376	DesktopPet_autogen/mocs_compilation.cpp	12aa582fc79387c3
+733	2664	7711374605560704	CMakeFiles/DesktopPet.dir/DesktopPet_autogen/A2DM3CPW2T/qrc_Image.cpp.obj	324f48821c8f6b21
+28	184	7711443072877376	D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug/DesktopPet_autogen/timestamp	12aa582fc79387c3
+28	184	7711443072877376	D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug/DesktopPet_autogen/mocs_compilation.cpp	12aa582fc79387c3
+513	3309	7711441629263349	CMakeFiles/DesktopPet.dir/petwidget.cpp.obj	c60ace571a314d0b
+510	2827	7711441624442704	CMakeFiles/DesktopPet.dir/DesktopPet_autogen/mocs_compilation.cpp.obj	2be708cd02e00ea9
+710	2945	7711374608472810	CMakeFiles/DesktopPet.dir/main.cpp.obj	a1cedccb338096db
+2613	2827	7711443101477723	DesktopPet.exe	e3892f59a824ffe8
+29	741	7711547050436138	build.ninja	e117eb6904a0dcd3
+187	2613	7711443099737290	CMakeFiles/DesktopPet.dir/clockwindow.cpp.obj	f74e534e095fba05
+507	706	7711374586043158	DesktopPet_autogen/A2DM3CPW2T/qrc_Image.cpp	1b07600b3f3af5df
+507	706	7711374586043158	D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug/DesktopPet_autogen/A2DM3CPW2T/qrc_Image.cpp	1b07600b3f3af5df
+719	2549	7711374604476488	CMakeFiles/DesktopPet.dir/petstate.cpp.obj	1719b0c1914b731d
+5	42	0	CMakeFiles/clean.additional	45ba1161548fe973
+42	64	0	clean	7c4ab7700f810e4a
+518	2871	7711441624857617	CMakeFiles/DesktopPet.dir/menuwindow.cpp.obj	ebdd4882dafc15c9
