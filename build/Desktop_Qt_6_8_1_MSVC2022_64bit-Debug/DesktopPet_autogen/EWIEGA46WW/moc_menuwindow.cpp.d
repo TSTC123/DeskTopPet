@@ -1,13 +1,27 @@
 D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug/DesktopPet_autogen/EWIEGA46WW/moc_menuwindow.cpp: D:/newsoft/Qt/my_test_file/DesktopPet/menuwindow.h \
+  D:/newsoft/Qt/my_test_file/DesktopPet/calendarwindow.h \
   D:/newsoft/Qt/my_test_file/DesktopPet/clockwindow.h \
+  D:/newsoft/Qt/my_test_file/DesktopPet/weatherwindow.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QDate \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QFlags \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QIODevice \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QJsonDocument \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QJsonObject \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QList \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QMetaType \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QObject \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QSharedDataPointer \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QString \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QTime \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QTimer \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QUrl \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/QVariant \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/q20functional.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/q20iterator.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/q20memory.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/q20type_traits.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/q23utility.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/q26numeric.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qalgorithms.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qanystringview.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qarraydata.h \
@@ -24,6 +38,8 @@ D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debu
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qbytearraylist.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qbytearrayview.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qcalendar.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qcborcommon.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qcborvalue.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qchar.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qcompare.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qcompare_impl.h \
@@ -35,6 +51,7 @@ D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debu
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qcontainerinfo.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qcontainertools_impl.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qcontiguouscache.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qcryptographichash.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qdarwinhelpers.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qdatastream.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qdatetime.h \
@@ -55,6 +72,9 @@ D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debu
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qiodevicebase.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qiterable.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qiterator.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qjsondocument.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qjsonobject.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qjsonvalue.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qlatin1stringview.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qline.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qlist.h \
@@ -79,6 +99,7 @@ D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debu
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qprocessordetection.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qrect.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qrefcount.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qregularexpression.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qscopedpointer.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qscopeguard.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qset.h \
@@ -125,6 +146,7 @@ D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debu
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qtypes.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qurl.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qutf8stringview.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/quuid.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qvariant.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qvarlengtharray.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtCore/qversiontagging.h \
@@ -143,6 +165,7 @@ D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debu
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qkeysequence.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qpaintdevice.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qpalette.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qpen.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qpicture.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qpixelformat.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qpixmap.h \
@@ -150,7 +173,10 @@ D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debu
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qregion.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qrgb.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qrgba64.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qtextcursor.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qtextdocument.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qtextformat.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qtextoption.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qtgui-config.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qtguiexports.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtGui/qtguiglobal.h \
@@ -168,13 +194,38 @@ D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debu
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtMultimedia/qtmultimedia-config.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtMultimedia/qtmultimediaexports.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtMultimedia/qtmultimediaglobal.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/QNetworkAccessManager \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/QNetworkReply \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/QNetworkRequest \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/QSslConfiguration \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qabstractsocket.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qhostaddress.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qhttpheaders.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qnetworkaccessmanager.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qnetworkreply.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qnetworkrequest.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qssl.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qsslcertificate.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qsslconfiguration.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qsslerror.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qsslsocket.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qtcpsocket.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qtnetwork-config.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qtnetworkexports.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtNetwork/qtnetworkglobal.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/QCalendarWidget \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/QGridLayout \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/QLabel \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/QPushButton \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/QTextEdit \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/QVBoxLayout \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/QWidget \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qabstractbutton.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qabstractscrollarea.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qboxlayout.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qcalendarwidget.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qframe.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qgridlayout.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qlabel.h \
@@ -182,6 +233,7 @@ D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debu
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qlayoutitem.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qpushbutton.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qsizepolicy.h \
+  D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qtextedit.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qtwidgets-config.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qtwidgetsexports.h \
   D:/newsoft/Qt6/6.8.1/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h \

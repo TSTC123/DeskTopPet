@@ -5,5 +5,30 @@
         <file>cat/caiDanJM.png</file>
         <file>sounds/alarm.wav</file>
         <file>sounds/timer.wav</file>
+        <file>weather/back2.jpeg</file>
+        <file>weather/Blizzard.png</file>
+        <file>weather/cloudy.png</file>
+        <file>weather/fog.png</file>
+        <file>weather/hail.png</file>
+        <file>weather/haze.png</file>
+        <file>weather/heavy rain.png</file>
+        <file>weather/heavy snow.png</file>
+        <file>weather/light rain.png</file>
+        <file>weather/light snow.png</file>
+        <file>weather/location.png</file>
+        <file>weather/Moderate rain.png</file>
+        <file>weather/Moderate snow.png</file>
+        <file>weather/rainstorm.png</file>
+        <file>weather/Search.png</file>
+        <file>weather/sleet.png</file>
+        <file>weather/sunny.png</file>
+        <file>weather/Thunder storm.png</file>
+        <file>weather/yin.png</file>
+        <file>cat/interact.png</file>
+        <file>cat/function.png</file>
+        <file>cat/clock.png</file>
+        <file>cat/calendar.png</file>
+        <file>cat/weather.png</file>
+        <file>cat/function_bg.png</file>
     </qresource>
 </RCC>

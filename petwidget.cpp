@@ -26,8 +26,8 @@ PetWidget::PetWidget(QWidget *parent)
         p.drawText(m_originalImage.rect(), Qt::AlignCenter, "Placeholder Image");
     }
 
-    // 设置初始缩放为20%，原定图片尺寸太大
-    m_scaleFactor = 0.20;  // 新增：初始化缩放系数(当前缩放系数-m_scaleFactor)
+    // 设置初始缩放为50%，原定图片尺寸
+    m_scaleFactor = 0.5;  // 新增：初始化缩放系数(当前缩放系数-m_scaleFactor)
     updateScaledImage();    // 应用初始缩放
 
     // 初始位置设为屏幕右下角，可修改
@@ -79,16 +79,16 @@ void PetWidget::createMenuButton() {
         menuButton->setText("Menu");
     } else {
         menuButton->setIcon(menuIcon);
-        menuButton->setIconSize(QSize(32, 32));
+        menuButton->setIconSize(QSize(100, 100));
     }
 
     // 设置按钮大小和样式
-    int buttonSize = qMin(width(), height()) / 5;
+    int buttonSize = qMin(width(), height()) / 4;
     menuButton->setFixedSize(buttonSize, buttonSize);
     menuButton->setStyleSheet(
         "QPushButton {"
         "   border: none;"
-        "   background: rgba(255, 255, 255, 30%);"
+        "   background: rgba(255, 255, 255, 00%);"
         "   border-radius: " + QString::number(buttonSize/2) + "px;"
                                             "}"
                                             "QPushButton:hover {"
@@ -98,8 +98,8 @@ void PetWidget::createMenuButton() {
 
     // 将按钮放在右下角
     QPoint buttonPos(
-        width() - menuButton->width() - width() * 0.1,
-        height() - menuButton->height() - height() * 0.1
+        width() - menuButton->width() - width() * 0.20,
+        height() - menuButton->height() - height() * 0.20
         );
     menuButton->move(buttonPos);
 
@@ -271,7 +271,7 @@ void PetWidget::resizeEvent(QResizeEvent *event)
 void PetWidget::mouseDoubleClickEvent(QMouseEvent *event)
 {
     if(event->button() == Qt::LeftButton) {
-        m_scaleFactor = 0.20; // 恢复原始大小的0.2，原定图片太大了
+        m_scaleFactor = 0.50; // 恢复原始大小的0.5，原定图片太大了
         updateScaledImage();
     }
 }

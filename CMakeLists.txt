@@ -36,6 +36,10 @@ set(PROJECT_SOURCES
         menuwindow.h
         clockwindow.cpp
         clockwindow.h
+        calendarwindow.cpp
+        calendarwindow.h
+        weatherwindow.cpp
+        weatherwindow.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -50,6 +54,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         petstate.h petstate.cpp
         menuwindow.h menuwindow.cpp
         clockwindow.h clockwindow.cpp
+        calendarwindow.h calendarwindow.cpp
+        weatherwindow.h weatherwindow.cpp
 
     )
 # Define target properties for Android with Qt 6 as:

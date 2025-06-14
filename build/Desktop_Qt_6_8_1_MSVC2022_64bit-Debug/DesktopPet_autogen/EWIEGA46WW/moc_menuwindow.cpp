@@ -8,6 +8,7 @@
 
 #include "../../../../menuwindow.h"
 #include <QtGui/qtextcursor.h>
+#include <QtNetwork/QSslError>
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>
@@ -41,12 +42,12 @@ static constexpr auto qt_meta_stringdata_ZN10MenuWindowE = QtMocHelpers::stringD
     "MenuWindow",
     "closed",
     "",
-    "onClockClicked",
     "onInteractionClicked",
-    "onCalendarClicked",
-    "onMaterialClicked",
-    "onWeatherClicked",
-    "onTrainingClicked"
+    "onFunctionClicked",
+    "showClockWindow",
+    "showCalendarWindow",
+    "showWeatherWindow",
+    "returnToMainMenu"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -101,17 +102,17 @@ Q_CONSTINIT const QMetaObject MenuWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<MenuWindow, std::true_type>,
         // method 'closed'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'onClockClicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'onInteractionClicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'onCalendarClicked'
+        // method 'onFunctionClicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'onMaterialClicked'
+        // method 'showClockWindow'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'onWeatherClicked'
+        // method 'showCalendarWindow'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'onTrainingClicked'
+        // method 'showWeatherWindow'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'returnToMainMenu'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -123,12 +124,12 @@ void MenuWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->closed(); break;
-        case 1: _t->onClockClicked(); break;
-        case 2: _t->onInteractionClicked(); break;
-        case 3: _t->onCalendarClicked(); break;
-        case 4: _t->onMaterialClicked(); break;
-        case 5: _t->onWeatherClicked(); break;
-        case 6: _t->onTrainingClicked(); break;
+        case 1: _t->onInteractionClicked(); break;
+        case 2: _t->onFunctionClicked(); break;
+        case 3: _t->showClockWindow(); break;
+        case 4: _t->showCalendarWindow(); break;
+        case 5: _t->showWeatherWindow(); break;
+        case 6: _t->returnToMainMenu(); break;
         default: ;
         }
     }

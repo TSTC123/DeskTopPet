@@ -399,6 +399,12 @@
 			null
 		],
 		[
+			"D:/newsoft/Qt/my_test_file/DesktopPet/calendarwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_calendarwindow.cpp",
+			null
+		],
+		[
 			"D:/newsoft/Qt/my_test_file/DesktopPet/clockwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_clockwindow.cpp",
@@ -420,6 +426,12 @@
 			"D:/newsoft/Qt/my_test_file/DesktopPet/petwidget.h",
 			"MU",
 			"EWIEGA46WW/moc_petwidget.cpp",
+			null
+		],
+		[
+			"D:/newsoft/Qt/my_test_file/DesktopPet/weatherwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_weatherwindow.cpp",
 			null
 		]
 	],
@@ -483,11 +495,17 @@
 	"SETTINGS_FILE" : "D:/newsoft/Qt/my_test_file/DesktopPet/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Debug/CMakeFiles/DesktopPet_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"D:/newsoft/Qt/my_test_file/DesktopPet/calendarwindow.cpp",
+			"MU",
+			null
+		],
 		[ "D:/newsoft/Qt/my_test_file/DesktopPet/clockwindow.cpp", "MU", null ],
 		[ "D:/newsoft/Qt/my_test_file/DesktopPet/main.cpp", "MU", null ],
 		[ "D:/newsoft/Qt/my_test_file/DesktopPet/menuwindow.cpp", "MU", null ],
 		[ "D:/newsoft/Qt/my_test_file/DesktopPet/petstate.cpp", "MU", null ],
-		[ "D:/newsoft/Qt/my_test_file/DesktopPet/petwidget.cpp", "MU", null ]
+		[ "D:/newsoft/Qt/my_test_file/DesktopPet/petwidget.cpp", "MU", null ],
+		[ "D:/newsoft/Qt/my_test_file/DesktopPet/weatherwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

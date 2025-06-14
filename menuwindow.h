@@ -7,6 +7,9 @@
 #include <QVBoxLayout>
 #include <QGridLayout>
 #include "clockwindow.h"
+#include "calendarwindow.h"
+#include "weatherwindow.h"
+
 class MenuWindow : public QWidget
 {
     Q_OBJECT
@@ -16,38 +19,42 @@ public:
     ~MenuWindow();
 
 signals:
-    void closed();  // 窗口关闭信号
+    void closed();
 
 protected:
     void paintEvent(QPaintEvent *event) override;
     void closeEvent(QCloseEvent *event) override;
-    void keyPressEvent(QKeyEvent *event) override; //ESC退出全屏模式
+    void keyPressEvent(QKeyEvent *event) override;
 
 private slots:
-    // 主菜单按钮槽函数
-    void onClockClicked();//时钟按钮的点击事件
     void onInteractionClicked();
-    void onCalendarClicked();
-    void onMaterialClicked();
-    void onWeatherClicked();
-    void onTrainingClicked();
+    void onFunctionClicked();
+    void showClockWindow();
+    void showCalendarWindow();
+    void showWeatherWindow();
+    void returnToMainMenu();
 
 private:
     void initUI();
     void setupMainMenuButtons(QGridLayout *layout);
-    QPushButton* createMenuButton(const QString &text, const QString &iconPath, int width, int height);
+    QPushButton* createMenuButton(const QString &iconPath, int width, int height);
+    QPushButton* createSubMenuButton(const QString &iconPath, int width, int height);
     void createBottomButtons();
+    void toggleFullScreen();
+    void switchToSubMenu(const QString &bgImagePath);
 
-    ClockWindow *clockWindow = nullptr; // 时钟功能
-
-    // UI 成员
-    QLabel *bgLabel = nullptr;          // 背景图片
-    QWidget *mainMenuContainer = nullptr; // 主菜单容器
-    QWidget *buttonContainer = nullptr;   // 底部按钮容器
-
-    // 底部按钮
+    QLabel *bgLabel = nullptr;
+    QWidget *mainMenuContainer = nullptr;
+    QWidget *buttonContainer = nullptr;
     QPushButton *backButton = nullptr;
     QPushButton *exitButton = nullptr;
+    bool isFullScreen = false;
+
+    ClockWindow *clockWindow = nullptr;
+    CalendarWindow *calendarWindow = nullptr;
+    WeatherWindow *weatherWindow = nullptr;
+
+    QWidget *currentSubMenu = nullptr; // 当前子菜单
 };
 
 #endif // MENUWINDOW_H
